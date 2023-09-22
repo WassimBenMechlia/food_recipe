@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-rp$htl$#k=$g56t^xys&_ijma#ba17v)i-u1_hid4y41u&%&e3
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['https://food-recipe-backend-ashy.vercel.app']
+ALLOWED_HOSTS = ['.vercel.app']
 
 
 # Application definition
@@ -69,7 +69,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'food_recipes.wsgi.application'
+WSGI_APPLICATION = 'food_recipes.wsgi.app'
 
 
 # Database
